@@ -8,7 +8,6 @@ public class Main {
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = random.nextInt(100_000) + 100_000;
             }
-
             return arr;
         }
         int[] arr = generateRandomArray();
@@ -20,7 +19,6 @@ public class Main {
 
 
     }
-
     private static void task5(int[] arr) {
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length -1; i != -1 ; i--) {
